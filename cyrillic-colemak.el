@@ -3,7 +3,7 @@
 (require 'quail)
 
 (quail-define-package
- "cyrillic-colemak" "Cyrillic" "ЙЦУК" nil
+ "cyrillic-colemak" "Cyrillic" "CC" nil
  "ЙЦУКЕН keyboard layout widely used in Russia (ISO 8859-5 encoding)
   in assuming that your default keyboard layout is Colemak"
  nil t t t t nil nil nil nil nil t)
