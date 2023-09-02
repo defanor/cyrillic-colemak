@@ -1,10 +1,12 @@
 cyrillic-colemak
 ================
 
-cyrillic-colemak input method for emacs
+cyrillic-colemak input method for Emacs. Allows to type using the
+ЙЦУКЕН keyboard layout while Colemak is used.
 
 
-installation
+Installation
 ============
 
-Download the file, add `(load-file "~/.emacs.d/cyrillic-colemak.el")` into your `.emacs`.
+Download the file, setup it with `load-file`, `package-install-file`,
+`use-package`, `straight-use-package`, or a similar function.

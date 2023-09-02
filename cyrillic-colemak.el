@@ -1,11 +1,25 @@
-;; cyrillic-colemak input method, based on cyrillic-dvorak
+;;; cyrillic-colemak.el --- an input method
+
+;; Author: defanor <defanor@uberspace.net>
+;; Version: 0.0.1
+;; Keywords: input
+;; URL: https://github.com/defanor/cyrillic-colemak
+
+;;; Commentary:
+
+;; This package provides an input method for entering cyrillic using
+;; the ЙЦУКЕН keyboard layout while using Colemak for latin input.
+;;
+;; Based on cyrillic-dvorak.
+
+;;; Code:
 
 (require 'quail)
 
 (quail-define-package
  "cyrillic-colemak" "Cyrillic" "CC" nil
- "ЙЦУКЕН keyboard layout widely used in Russia (ISO 8859-5 encoding)
-  in assuming that your default keyboard layout is Colemak"
+ "An input method for entering cyrillic using the ЙЦУКЕН keyboard
+layout while using Colemak for latin input."
  nil t t t t nil nil nil nil nil t)
 
 (quail-define-rules
@@ -106,3 +120,5 @@
  ("Z" ?Я))
 
 (provide 'cyrillic-colemak)
+
+;;; cyrillic-colemak.el ends here
